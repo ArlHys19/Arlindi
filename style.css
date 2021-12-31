@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.card {
+	border: 30px double rgb(217, 22, 100);
+	padding: 20px;
+	background: rgb(196,33,80);
+background: rgb(219,187,49);
+background: radial-gradient(circle, rgba(219,187,49,0.6811099439775911) 26%, rgba(244,45,96,0.7511379551820728) 92%);
+border-radius: 40px;
+transition: all 4s;
+}
+
+
+.card:hover {
+	transform: scale(1.5) rotate(360deg);
+	transition: all 4s;
+}
+
+h1 {
+	font-family: Corinthia;
+	font-size: 100px;
+	font-family: 'Pushster', cursive;
+}
+
+h2,p {
+	font-family: Corinthia;
+	font-size: 65px;
+	text-align: right;
+	font-family: 'Pushster', cursive;
+}
